@@ -3,7 +3,7 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  return ('a'..'z').to_a.sample
+  return (1..6).to_a.sample
   # return rand 1..6
   # return 1 + rand(6)
   # code goes here
